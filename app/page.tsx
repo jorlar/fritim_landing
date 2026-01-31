@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import ScreenshotSlideshow from './components/ScreenshotSlideshow';
 
 export default function LandingPage() {
   return (
@@ -197,7 +198,7 @@ export default function LandingPage() {
       {/* Screenshots Section */}
       <section id="demo" className="py-20 px-4 bg-[#123C66]/30">
         <div className="mx-auto max-w-6xl">
-          <div className="text-center mb-16">
+          <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-white">
               Se Fritim i aksjon
             </h2>
@@ -206,59 +207,7 @@ export default function LandingPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            {/* Screenshot 1 */}
-            <div className="rounded-2xl bg-[#123C66] p-4 shadow-xl">
-              <Image
-                src="/screenshots/frivillige.png"
-                alt="Frivilligoversikt"
-                width={1920}
-                height={1080}
-                className="rounded-xl w-full h-auto"
-              />
-              <p className="mt-4 text-white font-medium">Oversikt over alle frivillige</p>
-              <p className="text-white/60 text-sm">Filtrer, søk og administrer alle påmeldte</p>
-            </div>
-
-            {/* Screenshot 2 */}
-            <div className="rounded-2xl bg-[#123C66] p-4 shadow-xl">
-              <Image
-                src="/screenshots/registrer.png"
-                alt="Registreringsskjema"
-                width={1920}
-                height={1080}
-                className="rounded-xl w-full h-auto"
-              />
-              <p className="mt-4 text-white font-medium">Brukervennlig registrering</p>
-              <p className="text-white/60 text-sm">Frivillige velger oppgaver og tilgjengelighet</p>
-            </div>
-
-            {/* Screenshot 3 */}
-            <div className="rounded-2xl bg-[#123C66] p-4 shadow-xl">
-              <Image
-                src="/screenshots/oversikt.png"
-                alt="Dashboard oversikt"
-                width={1920}
-                height={1080}
-                className="rounded-xl w-full h-auto"
-              />
-              <p className="mt-4 text-white font-medium">Kontrollpanel med statistikk</p>
-              <p className="text-white/60 text-sm">Se status på alle frivillige og oppgaver</p>
-            </div>
-
-            {/* Screenshot 4 */}
-            <div className="rounded-2xl bg-[#123C66] p-4 shadow-xl">
-              <Image
-                src="/screenshots/mail.png"
-                alt="E-post til frivillige"
-                width={1920}
-                height={1080}
-                className="rounded-xl w-full h-auto"
-              />
-              <p className="mt-4 text-white font-medium">Send meldinger enkelt</p>
-              <p className="text-white/60 text-sm">Kommuniser med grupper eller enkeltpersoner</p>
-            </div>
-          </div>
+          <ScreenshotSlideshow />
         </div>
       </section>
 
