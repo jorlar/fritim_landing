@@ -230,7 +230,7 @@ export default function LandingPage() {
               <h3 className="text-xl font-bold text-gray-800">Fritim Small</h3>
               <p className="mt-2 text-gray-500">Perfekt for små arrangementer</p>
               <div className="mt-6">
-                <span className="text-4xl font-bold text-gray-800">499</span>
+                <span className="text-4xl font-bold text-gray-800">799</span>
                 <span className="text-gray-500"> NOK/mnd</span>
               </div>
               <ul className="mt-8 space-y-3">
@@ -263,7 +263,7 @@ export default function LandingPage() {
               <h3 className="text-xl font-bold text-black">Fritim Medium</h3>
               <p className="mt-2 text-black/70">For mellomstore festivaler</p>
               <div className="mt-6">
-                <span className="text-4xl font-bold text-black">799</span>
+                <span className="text-4xl font-bold text-black">1199</span>
                 <span className="text-black/70"> NOK/mnd</span>
               </div>
               <ul className="mt-8 space-y-3">
@@ -299,7 +299,7 @@ export default function LandingPage() {
               <h3 className="text-xl font-bold text-gray-800">Fritim Large</h3>
               <p className="mt-2 text-gray-500">For store festivaler</p>
               <div className="mt-6">
-                <span className="text-4xl font-bold text-gray-800">1199</span>
+                <span className="text-4xl font-bold text-gray-800">2199</span>
                 <span className="text-gray-500"> NOK/mnd</span>
               </div>
               <ul className="mt-8 space-y-3">
