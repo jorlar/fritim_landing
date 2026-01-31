@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import ScreenshotSlideshow from './components/ScreenshotSlideshow';
+import Footer from './components/Footer';
 
 export default function LandingPage() {
   return (
@@ -352,25 +353,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="py-12 px-4 border-t border-white/10">
-        <div className="mx-auto max-w-6xl">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-            <div className="flex items-center gap-2">
-              <span className="text-2xl">🎪</span>
-              <span className="text-xl font-bold text-white">Fritim</span>
-            </div>
-            <div className="flex items-center gap-6 text-white/60 text-sm">
-              <Link href="#" className="hover:text-white transition">Personvern</Link>
-              <Link href="#" className="hover:text-white transition">Vilkår</Link>
-              <Link href="#" className="hover:text-white transition">Kontakt</Link>
-            </div>
-            <p className="text-white/40 text-sm">
-              © 2026 Fritim. Alle rettigheter reservert.
-            </p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
