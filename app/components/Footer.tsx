@@ -145,7 +145,7 @@ function PrivacyContent() {
       <h3 className="text-lg font-semibold text-gray-800 mt-6 mb-3">7. Kontakt</h3>
       <p className="text-gray-600 mb-4">
         Har du spørsmål om personvern eller ønsker å utøve dine rettigheter? 
-        Kontakt oss på <a href="mailto:kontakt@fritim.app" className="text-[#1f6ae1] hover:underline">kontakt@fritim.app</a>.
+        Kontakt oss på <a href="mailto:support@fritim.no" className="text-[#1f6ae1] hover:underline">support@fritim.no</a>.
       </p>
     </div>
   );
@@ -292,7 +292,7 @@ function TermsContent() {
       <h3 className="text-lg font-semibold text-gray-800 mt-6 mb-3">14. Kontakt</h3>
       <p className="text-gray-600 mb-4">
         Har du spørsmål om vilkårene? Kontakt oss på{' '}
-        <a href="mailto:kontakt@fritim.app" className="text-[#1f6ae1] hover:underline">kontakt@fritim.app</a>.
+        <a href="mailto:support@fritim.no" className="text-[#1f6ae1] hover:underline">support@fritim.no</a>.
       </p>
     </div>
   );
