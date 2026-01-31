@@ -31,7 +31,7 @@ export default function Footer() {
               >
                 Vilkår
               </button>
-              <a href="mailto:kontakt@fritim.app" className="hover:text-white transition">
+              <a href="mailto:support@fritim.no" className="hover:text-white transition">
                 Kontakt
               </a>
             </div>
