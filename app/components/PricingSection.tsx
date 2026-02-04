@@ -13,9 +13,9 @@ export default function PricingSection() {
       large: 2499,
     },
     yearly: {
-      small: 7999,
-      medium: 11990,
-      large: 21990,
+      small: 9940,
+      medium: 19910,
+      large: 24890,
     },
   };
 
