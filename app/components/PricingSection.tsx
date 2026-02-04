@@ -8,9 +8,9 @@ export default function PricingSection() {
 
   const prices = {
     monthly: {
-      small: 799,
-      medium: 1199,
-      large: 2199,
+      small: 999,
+      medium: 1999,
+      large: 2499,
     },
     yearly: {
       small: 7999,
@@ -118,7 +118,7 @@ export default function PricingSection() {
                 <span className="text-black">✓</span> Ubegrenset oppgaver
               </li>
               <li className="flex items-center gap-2 text-black/80">
-                <span className="text-black">✓</span> E-post til frivillige
+                <span className="text-black">✓</span> E-post og sms-varsling til frivillige
               </li>
               <li className="flex items-center gap-2 text-black/80">
                 <span className="text-black">✓</span> CSV eksport
@@ -172,6 +172,12 @@ export default function PricingSection() {
               Kom i gang
             </Link>
           </div>
+        </div>
+
+        <div className="mt-10 rounded-2xl border border-white/10 bg-white/5 px-6 py-4 text-md text-white/80">
+          <p>Alle priser er inkl. mva.</p>
+          <p>SMS faktureres etter faktisk forbruk.</p>
+          <p>Arrangementer utover inkludert antall kan kjøpes separat.</p>
         </div>
       </div>
     </section>
