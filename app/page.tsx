@@ -22,7 +22,7 @@ export default function LandingPage() {
               Priser
             </Link>
             <Link 
-              href="https://fritim.app" 
+              href="https://fritim.vercel.app/login" 
               className="rounded-full bg-gradient-to-r from-[#6dd5a0] to-[#4ecdc4] px-5 py-2 text-sm font-semibold text-black transition hover:shadow-lg"
             >
               Logg inn
@@ -57,7 +57,7 @@ export default function LandingPage() {
           </p>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="https://fritim.app/register-admin"
+              href="https://fritim.vercel.app/register-admin"
               className="w-full sm:w-auto rounded-full bg-white px-8 py-4 text-lg font-semibold text-[#1f6ae1] shadow-lg transition hover:shadow-xl hover:bg-white/95"
             >
               Kom i gang gratis
@@ -226,7 +226,7 @@ export default function LandingPage() {
           </p>
           <div className="mt-8">
             <Link
-              href="https://fritim.app/register-admin"
+              href="https://fritim.vercel.app/register-admin"
               className="inline-block rounded-full bg-white px-10 py-4 text-lg font-semibold text-[#1f6ae1] shadow-lg transition hover:shadow-xl hover:bg-white/95"
             >
               Start gratis prøveperiode
