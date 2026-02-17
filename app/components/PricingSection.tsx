@@ -150,7 +150,7 @@ export default function PricingSection() {
                 <span className="text-[#4ecdc4]">✓</span> Ubegrenset arrangementer
               </li>
               <li className="flex items-center gap-2 text-gray-600">
-                <span className="text-[#4ecdc4]">✓</span> 250+ frivillige
+                <span className="text-[#4ecdc4]">✓</span> Ubegrenset antall frivillige
               </li>
               <li className="flex items-center gap-2 text-gray-600">
                 <span className="text-[#4ecdc4]">✓</span> Ubegrenset oppgaver
