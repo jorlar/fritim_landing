@@ -8,14 +8,14 @@ export default function PricingSection() {
 
   const prices = {
     monthly: {
-      small: 999,
-      medium: 1999,
-      large: 2499,
+      small: 1900,
+      medium: 2900,
+      large: 3900,
     },
     yearly: {
-      small: 9940,
-      medium: 19910,
-      large: 24890,
+      small: 15900,
+      medium: 24000,
+      large: 32500,
     },
   };
 
@@ -77,7 +77,7 @@ export default function PricingSection() {
                 <span className="text-[#4ecdc4]">✓</span> 1 arrangement
               </li>
               <li className="flex items-center gap-2 text-gray-600">
-                <span className="text-[#4ecdc4]">✓</span> Opptil 50 frivillige
+                <span className="text-[#4ecdc4]">✓</span> Opptil 100 frivillige
               </li>
               <li className="flex items-center gap-2 text-gray-600">
                 <span className="text-[#4ecdc4]">✓</span> 5 oppgaver per arrangement
@@ -112,7 +112,7 @@ export default function PricingSection() {
                 <span className="text-black">✓</span> Opptil 3 arrangementer
               </li>
               <li className="flex items-center gap-2 text-black/80">
-                <span className="text-black">✓</span> 200 frivillige per arrangement
+                <span className="text-black">✓</span> Opptil 250 frivillige
               </li>
               <li className="flex items-center gap-2 text-black/80">
                 <span className="text-black">✓</span> Ubegrenset oppgaver
@@ -150,7 +150,7 @@ export default function PricingSection() {
                 <span className="text-[#4ecdc4]">✓</span> Ubegrenset arrangementer
               </li>
               <li className="flex items-center gap-2 text-gray-600">
-                <span className="text-[#4ecdc4]">✓</span> Ubegrenset frivillige
+                <span className="text-[#4ecdc4]">✓</span> 250+ frivillige
               </li>
               <li className="flex items-center gap-2 text-gray-600">
                 <span className="text-[#4ecdc4]">✓</span> Ubegrenset oppgaver
